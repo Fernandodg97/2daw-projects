@@ -22,7 +22,7 @@ function switchBg(color: string){
 // let redButton: HTMLButtonElement = document.getElementById('redBt') as HTMLButtonElement;
 // redButton.addEventListener("click", () => switchBg('R'));
 
-let buttons: HTMLCollection = document.getElementsByTagName("button") as HTMLCollection;
+let buttons: HTMLCollectionOf<HTMLButtonElement> = document.getElementsByTagName("button");
 
 for(let i = 0; i < buttons.length; i++){
     buttons[i].addEventListener("click", () => switchBg(buttons[i].id));
