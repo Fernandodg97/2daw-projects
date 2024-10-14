@@ -2,9 +2,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color: black;
 }
-
 #container{
     display: grid;
     width: 100%;
@@ -33,11 +31,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 #box{
     width: 50%;
     height: 50%;
-    background-color: aqua;
+    background-color: white;
 }
 button{
     writing-mode: vertical-rl;
@@ -48,7 +47,7 @@ button{
     border: none;
     color: white;
     font-size: 16px;
-    padding: 20px  0   0   0;
+    /*padding: 20px  0   0   0;*/
     margin: 0;
     font: inherit;
     cursor: pointer;
